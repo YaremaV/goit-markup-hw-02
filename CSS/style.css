@@ -23,7 +23,7 @@ background: #2F303A;
 body{
     color: var(--praimary-text-color);
     background-color:var(--white-color);
-    
+    font-family:  Roboto,sans-serif;
 }
 
 .list{
