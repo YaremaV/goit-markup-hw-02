@@ -1,0 +1,107 @@
+/* Цвета текста (все цвета на стр)
+text-color
+color: #212121;
+color: #2196F3;
+color: #757575;
+color: #FFFFFF;
+color: rgba(255, 255, 255, 0.6);
+*/
+
+/* Background
+background: #2F303A;
+ */
+
+
+ :root{
+    --praimary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color:#FFFFFF;
+    --back-color: #2F303A;
+}
+
+body{
+    color: var(--praimary-text-color);
+    background-color:var(--white-color);
+    
+}
+
+.list{
+list-style-type:none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* HEADER */
+.head .title .link{
+    color: var(--praimary-text-color);
+}
+
+.title.web{
+    color:var(--accent-color);
+}
+
+.title.web.list>a{
+   color:var(--accent-color);
+   
+}
+
+.title.link{
+    color: var(--title-text-color) ;
+}
+
+.title.link:hover{
+    color:var(--accent-color);
+}
+
+
+/* MAIN HERO*/
+
+.title{
+    color: var(--white-color);
+    background-color:var(--back-color)
+  
+}
+
+.section-link{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    
+}
+
+.section-link:hover{
+    color: var(--accent-color);
+    background-color:  var(--white-color)
+    
+    
+}
+
+.section .text{
+    color:var(--title-text-color)
+}
+
+.section-team .text{
+    color: var(--title-text-color)
+}
+
+/* FOOTER */
+.footer{
+    background-color:var(--back-color)
+}
+
+.footer .add{
+    color:var(--white-color)   
+}
+.footer .link{
+    color: var(--title-text-color)
+}
+
+.footer .link:hover{
+    color: var(--accent-color)
+}
+
+.title.web.studio{
+   color: var(--white-color) 
+}
