@@ -43,10 +43,16 @@ body {
 
 .web {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .studio {
   color: var(--praimary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
 }
 /*  navigation */
 .nav {
@@ -85,10 +91,16 @@ body {
 
 .footer .web {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .footer .studio {
   color: var(--white-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .addres {
