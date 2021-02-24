@@ -39,6 +39,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .active:hover,
 .active:focus {
@@ -57,20 +58,20 @@ a {
   color: var(--accent-color);
 
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .studio {
   color: var(--praimary-text-color);
 
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /*  navigation */
 .nav {
@@ -85,6 +86,15 @@ a {
   color: var(--accent-color);
 }
 
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+
 .info:hover,
 .info:focus {
   color: var(--accent-color);
@@ -93,10 +103,10 @@ a {
 .text {
   color: var(--title-text-color);
 
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /*HERO*/
@@ -108,29 +118,45 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.team {
+  background-color: #f5f4fa;
 }
 
 /* Перечень качеств */
 
 .section .title {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.subtitle {
-  font-style: normal;
-  font-weight: bold;
+.team .title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.suptitle {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -144,41 +170,59 @@ a {
 
 .footer .web {
   color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
 
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .footer .studio {
   color: var(--white-color);
-  font-family: "Raleway", sans-serif;
 
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .addres {
   color: var(--white-color);
 
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-info {
   color: rgba(255, 255, 255, 0.6);
 
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Портфолио */
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 .btn {
   color: var(--praimary-text-color);
   background-color: #f5f4fa;
@@ -186,7 +230,9 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
 
+  cursor: pointer;
   text-align: center;
 }
 
