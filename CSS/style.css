@@ -17,6 +17,7 @@ background: #2F303A;
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --back-color: #2f303a;
+  --backgroundcolor-team: #f5f4fa;
 }
 
 body {
@@ -135,7 +136,7 @@ a {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--backgroundcolor-team);
 }
 
 /* Перечень качеств */
@@ -166,16 +167,6 @@ a {
 /* FOOTER */
 .footer {
   background-color: var(--back-color);
-}
-
-.footer .web {
-  color: var(--accent-color);
-
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 .footer .studio {
